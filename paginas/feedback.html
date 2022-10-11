@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerWearing: Feedback</title>
+    <link rel="shortcut icon" href="../multimedia/psi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estiloPagina.css">
+</head>
+
+<body>
+    <header id="#header">
+
+            
+        <nav class="nav">
+            
+
+            <ul class="nav-menu"> 
+    
+                <li class="nav-menu-logo">
+                    <a href="../index.html"><img src="../multimedia/psi.png" alt="loguito" class="logo-menu"></a>
+                </li>
+
+                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
+                <li class="nav-menu-item"><a href="nosotros.html" target="_blank" class="nav-menu-link">¿Quienes Somos?</a></li>
+                <li class="nav-menu-item"><a href="feedback.html" class="nav-menu-link">Feedback</a></li> 
+                <li class="nav-menu-item"><a href="galeria.html" target="_blank" class="nav-menu-link">Galeria</a></li>              
+                <li class="nav-menu-item"><a href="faqs.html" target="_blank" class="nav-menu-link">FAQs</a></li>   
+                <li class="nav-menu-item"><a href="#final" class="nav-menu-link">Final de Pagina</a></li> 
+                
+            </ul>
+
+        </nav>
+
+    </header>
+    
+<div class="contenedor-titulo-feedback">
+    <h1 class="titulo-feedback"> TU OPINION NOS IMPORTA </h1>
+</div>
+
+
+<div class="contenedor-form">
+<form class="form">
+    <fieldset class="form-fieldset">
+    
+        <!-- <fieldset class="form-fieldset"> -->
+        
+            <label for="correo" class="form-item"></label>
+            <input type="email" name="correo" required placeholder="E-mail" height="20px" class="form-item-input">
+
+            <label for="nombreApellido" class="form-item"></label>
+            <input type="text" name="nombreApellido" required placeholder="Nombre y apellido:" class="form-item-input">
+
+            <label for="nacimiento" class="form-item">Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" required class="form-item-input">
+
+                        <!-- PUNTUACION VALORACION DEL 1 AL 10 -->
+            <label for="valoracion" class="form-item">Dejanos tu valoracion sobre la marca del 1 al 10:</label>
+            <p class="form-valoracion-numeros">1 2 3 4 5 6 7 8 9 10</p>
+            <input type="range" name="valoracion" required class="barra-valoracion-feedback">
+
+
+        <textarea name="opinion" id="" cols="50" rows="10" class="feedback-text-opinion" placeholder="Deja tu opinion:"></textarea>
+
+        <!-- </fieldset> -->
+    
+</fieldset>
+
+
+
+<div class="botones">
+    <!-- <label for="botonEnviar"></label> -->
+    <input type="submit"  value="Enviar formulario">
+    <input type="reset" value="Borrar todo">
+
+</div>
+
+</form>
+
+
+
+</div>
+
+
+<footer id="final">
+    <hr class="hr">
+        <ul class="footer-lista">
+            <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank" class="footer-item-link">contacto@powerclothing.com</a></li>
+
+            <li class="footer-lista-item">PowerClothing © 2022. Todos los derechos reservados.</li>
+            
+        </ul>
+    
+</footer>
+
+
+
+
+</body>
+</html>

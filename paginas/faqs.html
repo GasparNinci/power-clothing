@@ -12,91 +12,105 @@
 
     <link rel="shortcut icon" href="../multimedia/psi.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estiloPagina.css">
-    
+
 </head>
 
 <body>
-    <header id="#header">
-
-        <nav>
-            
-            <ul> 
-    
-                
-                <a href="../index.html"><img src="../multimedia/psi.png" alt="loguito" class="logo-menu"></a>
-                
-
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="nosotros.html" class="nav-menu-link">¿Quienes Somos?</a></li>
-                <li class="nav-menu-item"><a href="feedback.html" class="nav-menu-link">Feedback</a></li>  
-                <li class="nav-menu-item"><a href="galeria.html" class="nav-menu-link">Galeria</a></li>             
-                <li class="nav-menu-item"><a href="faqs.html"  class="nav-menu-link">FAQs</a></li>   
-                <li class="nav-menu-item"><a href="#final" class="nav-menu-link">Final de Pagina</a></li> 
-                
-            </ul>
-
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../multimedia/power-logo.jpg" alt="logo" class="navbar-logo-power"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">Otros</a>
+                            <ul class="dropdown-menu bg-danger">
+                                <li><a class="dropdown-item" href="faqs.html">Preguntas Frecuentes</a></li>
+                                <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex navbar-search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
-        
     </header>
 
 <main>
     
 <h1 class="titulo-faqs">PREGUNTAS FRECUENTES</h1>
 
-<div class="contenedor-flex-faqs">
 
-    <section class="faqs1">
-        <article id="article-faqs" class="article1">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+    <section class="faqs">
+        <article>
+            <h2 >Medios de Pago:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
             <div class="tarjetas-faqs">
                 <img src="../multimedia/tarjetas/visa.jpg" alt="tarjetaVisa" class="tarjetas-faqs-visa" width="50px">
                 <img src="../multimedia/tarjetas/mastercard.png" alt="" class="tarjetas-faqs-master" width="50px">
             </div>
         </article>
 
-        <article id="article-faqs" class="article2">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+        <article>
+            <h2>Envios:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
         </article>
-        <article id="article-faqs" class="article3">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+        <article>
+            <h2>Promociones:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
         </article>
-    </section>
+    
 
 
-    <section class="faqs2">
-        <article id="article-faqs" class="article4">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+    
+        <article>
+            <h2>Descuentos:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
             
         </article>
-        <article id="article-faqs" class="article5">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+        <article>
+            <h2>Materiales:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
         </article>
-        <article id="article-faqs" class="article6">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
-        </article>
-
-    </section>
-
-
-    <section class="faqs3">
-        <article id="article-faqs" class="article7">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p> 
+        <article>
+            <h2>Devoluciones y Cambios:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
         </article>
 
-        <article  id="article-faqs" class="article8">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+    
+
+
+    
+        <article>
+            <h2>¿Cómo se que talle soy?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p> 
         </article>
-        <article id="article-faqs" class="article9">
-            <h2 class="article-faqs-subtitulo">Medios de Pago:</h2>
-            <p class="article-faqs-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellendus nihil sapiente ad expedita beatae quibusdam animi hic deserunt debitis adipisci ex quae necessitatibus omnis, officiis earum assumenda consequatur porro veniam facere dolorem distinctio neque. Qui porro sint voluptatem suscipit sapiente labore, ab magni officiis sed, quaerat doloribus distinctio. Autem.</p>
+
+        <article>
+            <h2>¿Cómo cancelo mi orden?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
+        </article>
+        <article>
+            <h2>¿Hacen envios internacionales?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non totam quidem dolore, alias exercitationem, ad eum molestias iusto dolorem assumenda aliquam expedita eveniet sit tempora!</p>
         </article>
 
     </section>

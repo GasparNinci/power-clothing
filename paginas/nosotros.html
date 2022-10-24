@@ -21,103 +21,122 @@
 
 <body class="body-nosotros">
 
-<div class="container-fluid">
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-danger">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../multimedia/power-logo.jpg" alt="logo" class="navbar-logo-power"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">Otros</a>
+                                <ul class="dropdown-menu bg-danger">
+                                    <li><a class="dropdown-item" href="faqs.html">Preguntas Frecuentes</a></li>
+                                    <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                                </ul>
+                        </ul>
+                        <form class="d-flex navbar-search" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <header id="#header" class="header-nosotros">
-
-        <nav class="row col-12">
-
-            <ul>
 
 
-                <a href="../index.html"><img src="../multimedia/power-logo.jpg" alt="loguito" class="logo-menu" width="100px" height="50px"></a>
+        <main class="row nosotros-main">
+
+            <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 nosotros-main-texto1">
+                <h1 class="nosotros-titulo-main"><b>¿Quienes Somos?</b></h1>
+                <p class="nosotros-texto-main">Somos jovenes emprendedores aficionados al entrenamiento. Luego de un tiempo de probar prendas comodas al hacer ejercicio, surgio nuestra idea de comenzar acomercializarlas, y asi fue que nacio Power Clothing, ropa de moda con tela especial para sentirse comodo al ejercitarse.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-6 nosotros-main-actividad">
+                <h3><b>UN POCO DE LO QUE HACEMOS</b></h3>
+                <img src="../multimedia/trabajando.jpg" alt="nuestro equipo" class="nosotros-imagen-actividad">
+            </div>
+
+        </main>
+
+        <section class="row section-nosotros">
+            <div class="col-xs-12 col-md-7 col-lg-4 col-xl-6 nosotros-video">
+                <h3>Nuestro Equipo</h3>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/pidhWGD-m_A"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-xs-12 col-md-5 col-lg-4 col-xl-5 nosotros-objetivo">
+                <h1><b>¿Cuál es nuestro objetivo?</b></h1>
+                <p>Somos una marca personalizada, nos gusta sentirnos comodos y a la vez bien vestidos a la hora de entrenar. Nuestro objetivo consiste en dar confort a la gente que entrena seguido y nuestra mision se basa crear una experiencia placentera al hacer lo que mas nos gusta: el entrenamiento.</p>
+            </div>
+        </section>
 
 
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="nosotros.html" class="nav-menu-link">¿Quienes Somos?</a></li>
-                <li class="nav-menu-item"><a href="feedback.html" class="nav-menu-link">Feedback</a></li>
-                <li class="nav-menu-item"><a href="galeria.html" class="nav-menu-link">Galeria</a></li>
-                <li class="nav-menu-item"><a href="faqs.html" class="nav-menu-link">FAQs</a></li>
-                <li class="nav-menu-item"><a href="#final" class="nav-menu-link">Final de Pagina</a></li>
+        <section class="row nosotros-contenedor-contacto">
+            <div class="col-xs-12 col-md-6 col-lg-6 nosotros-redes">
+                ¿Como contactar con nosotros?
+                <p class="nosotros-texto-redes">Podes contactarnos por nuestras redes para resolver cualquier duda, ver
+                    nuestros diseños y nuestros
+                    proximos lanzamientos. Tambien podes descargar nuestra aplicacion para comprar nuestros productos!
+                </p>
+
+                <a href="https://z-p15.www.instagram.com/accounts/login/?next=/p/CK8SOUgBxgo/&hl=es-la"
+                    target="_blank"><img src="../multimedia/logos/instagram_logo.png" alt="Instagram" width="60px"></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><img src="../multimedia/logos/logofacebook.png"
+                        alt="Facebook" width="50px" height="40px"></a>
+            </div>
+
+            <section class="col-xs-12 col-md-6 col-lg-6 nosotros-aplicaciones">
+                <b>DESCARGA NUESTRA APLICACION PARA CELULAR:</b>
+                <div>
+                    <a href=""><img src="../multimedia/logos/logo_apple_blanco.png" width="50px" alt="appApple"></a>
+                    <a href=""><img src="../multimedia/logos/logo_android.png" alt="appAndroid" width="50px"></a>
+                </div>
+            </section>
+        </section>
+
+
+
+        <footer id="final" class="row footer-nosotros">
+            <hr class="hr">
+            <ul class="footer-lista">
+                <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank"
+                        class="footer-item-link" title="Ir a Gmail">contacto@powerclothing.com</a></li>
+
+                <li class="footer-lista-item">PowerClothing © 2022. Todos los derechos reservados.</li>
 
             </ul>
 
-        </nav>
-
-    </header>
-
-
-    <main class="row nosotros-main">
-        
-            <div class="col-xs-12 col-md-6 col-lg-6 nosotros-main-texto1">
-                <h1 class="nosotros-titulo-main"><b>¿Quienes Somos?</b></h1>
-                <p class="nosotros-texto-main">Somos jovenes emprendedores aficionados al entrenamiento. Luego de un tiempo de probar prendas comodas al hacer ejercicio, surgio nuestra idea de comenzar a comercializarlas, y asi fue que nacio Power Clothing, ropa de moda con tela especial para sentirse comodo al ejercitarse.</p>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 nosotros-main-actividad">
-                <h3><b>UN POCO DE LO QUE HACEMOS</b></h3>
-                <img src="../multimedia/trabajando.jpg" alt="nuestro equipo" height="300px" width="400px">
-            </div>
-
-    </main>
-
-    <section class="row section-nosotros">    
-            <div class="col-xs-12 col-md-7 col-lg-4 col-xl-6 nosotros-video">
-                <h3>Nuestro Equipo</h3>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/pidhWGD-m_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            <div class="col-xs-12 col-md-5 col-lg-4 col-xl-5 nosotros-objetivo">
-                <h1><b>¿Cuál es nuestro objetivo?</b></h1>
-                <p>Somos una marca personalizada, nos gusta sentirnos comodos y a la vez bien vestidos a la hora de
-                entrenar. Nuestro objetivo consiste en dar confort a la gente que entrena seguido y nuestra mision se
-                basa</p>
-            </div>
-    </section>
-    
-
-<section class="row nosotros-contenedor-contacto">
-        <div class="col-xs-12 col-md-6 col-lg-6 nosotros-redes">
-            ¿Como contactar con nosotros?
-            <p class="nosotros-texto-redes">Podes contactarnos por nuestras redes para resolver cualquier duda, ver nuestros diseños y nuestros
-                proximos lanzamientos. Tambien podes descargar nuestra aplicacion para comprar nuestros productos!
-            </p>
-
-            <a href="https://z-p15.www.instagram.com/accounts/login/?next=/p/CK8SOUgBxgo/&hl=es-la" target="_blank"><img src="../multimedia/logos/instagram_logo.png" alt="Instagram" width="60px"></a>
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="../multimedia/logos/logofacebook.png" alt="Facebook" width="50px" height="40px"></a>
-        </div>
-
-    <section class="col-xs-12 col-md-6 col-lg-6 nosotros-aplicaciones">
-         <b>DESCARGA NUESTRA APLICACION PARA CELULAR:</b>
-        <div>
-            <a href=""><img src="../multimedia/logos/logo_apple_blanco.png" width="50px" alt="appApple"></a>
-            <a href=""><img src="../multimedia/logos/logo_android.png" alt="appAndroid" width="50px"></a>
-        </div>
-    </section>
-</section>
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp">
+            </a>
+        </footer>
 
 
-
-    <footer id="final" class="row footer-nosotros">
-        <hr class="hr">
-        <ul class="footer-lista">
-            <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank"
-                    class="footer-item-link">contacto@powerclothing.com</a></li>
-
-            <li class="footer-lista-item">PowerClothing © 2022. Todos los derechos reservados.</li>
-
-        </ul>
-
-        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-            <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp">
-        </a>
-    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-
-
-</div>
+    </div>
 </body>
 
 </html>

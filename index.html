@@ -20,24 +20,41 @@
 
 
 <body>
-<div class="logo-principal">
-    <img src="multimedia/logoPower.webp" alt="logo" width="100%" height="200px">
-</div>
-    
-    <header id="#header">
-        <nav>
-            
-            <ul>
-                <a href="index.html"><img src="multimedia/psi.png" alt="loguito" class="logo-menu"></a>
-
-                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="paginas/nosotros.html" class="nav-menu-link">¿Quienes Somos?</a></li>
-                <li class="nav-menu-item"><a href="paginas/feedback.html" class="nav-menu-link">Feedback</a></li>              
-                <li class="nav-menu-item"><a href="paginas/galeria.html" class="nav-menu-link">Galeria</a></li>   
-                <li class="nav-menu-item"><a href="paginas/faqs.html" class="nav-menu-link">FAQs</a></li>  
-                <li class="nav-menu-item"><a href="#final" class="nav-menu-link">Final de Pagina</a></li> 
-                
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../multimedia/power-logo.jpg" alt="logo" class="navbar-logo-power"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">Otros</a>
+                            <ul class="dropdown-menu bg-danger">
+                                <li><a class="dropdown-item" href="paginas/faqs.html">Preguntas Frecuentes</a></li>
+                                <li><a class="dropdown-item" href="paginas/feedback.html">Feedback</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="paginas/galeria.html">Galeria</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex navbar-search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 

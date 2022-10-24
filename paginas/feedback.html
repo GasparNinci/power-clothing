@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,95 +16,114 @@
 </head>
 
 <body>
-    <header id="#header">
-
-            
-        <nav class="nav">
-            
-
-            <ul> 
-    
-                
-                <a href="../index.html"><img src="../multimedia/psi.png" alt="loguito" class="logo-menu"></a>
-                
-
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="nosotros.html" class="nav-menu-link">¿Quienes Somos?</a></li>
-                <li class="nav-menu-item"><a href="feedback.html" class="nav-menu-link">Feedback</a></li> 
-                <li class="nav-menu-item"><a href="galeria.html" class="nav-menu-link">Galeria</a></li>              
-                <li class="nav-menu-item"><a href="faqs.html" class="nav-menu-link">FAQs</a></li>   
-                <li class="nav-menu-item"><a href="#final" class="nav-menu-link">Final de Pagina</a></li> 
-                
-            </ul>
-
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../multimedia/power-logo.jpg" alt="logo"
+                        class="navbar-logo-power"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Otros</a>
+                            <ul class="dropdown-menu bg-danger">
+                                <li><a class="dropdown-item" href="faqs.html">Preguntas Frecuentes</a></li>
+                                <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex navbar-search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
-
     </header>
-    
-<div class="contenedor-titulo-feedback">
-    <h1 class="titulo-feedback"> TU OPINION NOS IMPORTA </h1>
-</div>
-
-<div class="container-fluid">
-<div class="contenedor-form">
-<form class="form">
-    <fieldset class="form-fieldset">
-    
-        <!-- <fieldset class="form-fieldset"> -->
-        
-            <label for="correo" class="form-item"></label>
-            <input type="email" name="correo" required placeholder="E-mail" height="20px" class="form-item-input">
-
-            <label for="nombreApellido" class="form-item"></label>
-            <input type="text" name="nombreApellido" required placeholder="Nombre y apellido:" class="form-item-input">
-
-            <label for="nacimiento" class="form-item">Fecha de nacimiento:</label>
-            <input type="date" name="nacimiento" required class="form-item-input">
-
-                        <!-- PUNTUACION VALORACION DEL 1 AL 10 -->
-            <label for="valoracion" class="form-item">Dejanos tu valoracion sobre la marca del 1 al 10:</label>
-            <p class="form-valoracion-numeros">1 2 3 4 5 6 7 8 9 10</p>
-            <input type="range" name="valoracion" required class="barra-valoracion-feedback">
 
 
-        <textarea name="opinion" id="" cols="50" rows="10" class="feedback-text-opinion" placeholder="Deja tu opinion:"></textarea>
+    <div class="contenedor-titulo-feedback">
+        <h1 class="titulo-feedback"> TU OPINION NOS IMPORTA </h1>
+    </div>
 
-        <!-- </fieldset> -->
-    
-</fieldset>
+    <div class="container-fluid">
+        <div class="contenedor-form">
+            <form class="form">
+                <fieldset class="form-fieldset">
 
 
 
-<div class="botones">
-    <!-- <label for="botonEnviar"></label> -->
-    <input type="submit"  value="Enviar formulario">
-    <input type="reset" value="Borrar todo" height  ="10px">
+                    <label for="correo" class="form-item"></label>
+                    <input type="email" name="correo" required placeholder="E-mail" height="20px"
+                        class="form-item-input">
 
-</div>
+                    <label for="nombreApellido" class="form-item"></label>
+                    <input type="text" name="nombreApellido" required placeholder="Nombre y apellido:"
+                        class="form-item-input">
 
-</form>
+                    <label for="nacimiento" class="form-item">Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" required class="form-item-input">
+
+                    <label for="valoracion" class="form-item">Dejanos tu valoracion sobre la marca del 1 al 10:</label>
+                    <p class="form-valoracion-numeros">1 2 3 4 5 6 7 8 9 10</p>
+                    <input type="range" name="valoracion" required class="barra-valoracion-feedback">
+
+
+                    <textarea name="opinion" id="" class="feedback-text-opinion"
+                        placeholder="Deja tu opinion:"></textarea>
+
+
+                </fieldset>
 
 
 
-</div>
-</div>
+                <div class="botones">
 
-<footer id="final">
-    <hr class="hr">
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Borrar todo" height="10px">
+
+                </div>
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+    <footer id="final">
+        <hr class="hr">
         <ul class="footer-lista">
-            <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank" class="footer-item-link">contacto@powerclothing.com</a></li>
+            <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank"
+                    class="footer-item-link">contacto@powerclothing.com</a></li>
 
             <li class="footer-lista-item">PowerClothing © 2022. Todos los derechos reservados.</li>
-            
+
         </ul>
 
-    <a href="https://www.whatsapp.com/?lang=es"  target="_blank">
-        <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp">
-    </a>
-</footer>
+        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+            <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp">
+        </a>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 
 </body>
+
 </html>

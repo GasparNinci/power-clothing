@@ -1,0 +1,148 @@
+$fontNav: 3rem;
+$colorBg: #030807;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: $colorBg;
+    color: white;
+    font-family: 'Times New Roman', Times, serif    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+} 
+
+nav{
+    font-size: $fontNav;
+} 
+
+.dropdown-menu{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    padding-right: 5rem;
+}
+
+.navbar-logo-power{    
+    width: 15rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar-search{
+    height: 3.5rem;
+    width: 95%;
+    font-size: 7rem;
+} 
+.btn-outline-dark{
+    color: #060606;
+    width: 10rem;
+    font-size: 1.5rem;
+}
+
+
+hr{
+    margin-top: 3rem;
+}
+
+#final{
+    background: linear-gradient(to bottom,  #030807 ,#1b1b1b);
+    padding-top: $fontNav;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    ul{
+        list-style-type: none;
+        margin-left: 1rem;
+        width: 90%;
+        li{
+            padding: 5px;
+            font-style: italic;
+        }
+    }
+    a{
+        color: white;
+    &:hover{
+        color: rgb(75, 75, 222);
+    }
+    }
+    div{
+        text-align: center;
+        a{
+            img{
+                width: 15rem;
+                height: 10rem;
+            }
+        }
+    }
+    
+}
+
+.instagram{
+    width: 70px;
+    position: fixed;
+    bottom: 57%;
+    right: 0px;
+}
+
+.facebook{
+    width: 50px;
+    position: fixed;
+    bottom: 50%;
+    right: 12px;
+}
+
+.whatsapp{
+    width: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@import "index";
+@import "nosotros";
+@import "faqs"; 
+@import "feedback";
+@import "galeria";
+
+@media (max-width: 991px) {
+    
+    nav{
+        font-size: 2rem;
+    }
+
+    .navbar-logo-power{
+        width: 20rem;
+    }
+
+    .dropdown-menu{
+        font-size: 1.5rem;
+    }
+
+    .navbar-search{
+        height: 3.5rem;
+        width: 90%;
+        font-size: 7rem;
+    } 
+
+    .nosotros-objetivo-texto{
+        text-align: center;
+    }
+}
+

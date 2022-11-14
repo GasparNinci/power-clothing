@@ -1,0 +1,90 @@
+.contenedor-titulo-feedback{
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h1{
+        padding: 1rem;
+        display: inline;
+        font-size: 3.5rem;
+        border: solid 5px white;
+    }  
+}
+
+.contenedor-form{
+    padding: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color:#060606 ;    
+    font-weight: bold;
+}
+
+.feedback-form{
+    display: inline-block;
+    width: 45rem;
+    background-color: #62646a;
+    border-radius: 28px;
+    padding: 2rem 1.5rem;
+    label{
+        display: inline-block;
+        margin: 5px;
+        padding: 15px;
+    }
+    input[type="text"],
+ input[type="email"]{
+    height: 5rem;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-top: .6rem;}
+    textarea{
+        text-align: center;
+        width:90%;
+        height:100px;
+        border:1px solid #060606;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:0px 2rem 1rem 2rem;
+        display: block;
+        transition: height 5s;
+        &:focus{
+            height: 15rem;
+        }
+    }
+}
+.botones {
+    input{
+    margin: 3px;
+    padding: 5px;
+    color: #fefefe;
+    background-color: #060606;
+    border: 2px solid #060606;
+    border-radius: 6px;
+    &:hover {
+        background-color: #fafafa;
+        color: #060606;
+        font-weight: bold;
+    }
+}
+}
+
+.form-aviso {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    text-decoration: dotted;
+    text-align: left;
+    span{
+        font-size: 3rem;
+        
+    }
+}
+
+.obligatorio{
+    color: #d7f07b;
+    font-weight: bold;
+    font-size: 2.25rem;
+}

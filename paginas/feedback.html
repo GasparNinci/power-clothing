@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerClothing: Feedback</title>
+
+    <meta name="keywords" content="feedback, opinión, powerclothing, ropa, ropa deportiva, solución de problemas, problemas, argentina, puntuación, formulario, devoluciones">
+
+    <meta name="description" content="Feedback y opinión de la página de power clothing. Aprovechá para decirnos las cosas que te gustaría que cambiemos, o las cosas que te gustan.">
+
+    <title>Feedback | Power Clothing</title>
     <link rel="shortcut icon" href="../multimedia/psi.png" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/estiloPagina.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-danger">
+        <nav class="navbar navbar-expand-lg bg-secondary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../multimedia/power-logo.jpg" alt="logo"
                         class="navbar-logo-power"></a>
@@ -36,7 +42,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Otros</a>
-                            <ul class="dropdown-menu bg-danger">
+                            <ul class="dropdown-menu bg-secondary">
                                 <li><a class="dropdown-item" href="faqs.html">Preguntas Frecuentes</a></li>
                                 <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
                                 <li>
@@ -55,41 +61,33 @@
     </header>
 
 
-    <div class="contenedor-titulo-feedback">
-        <h1 class="titulo-feedback"> TU OPINION NOS IMPORTA </h1>
+    <div class="contenedor-titulo-feedback" data-aos="fade-zoom-in"
+    data-aos-easing="linear"
+    data-aos-delay="500"
+    data-aos-duration="2000">
+        <h1> TU OPINIÓN NOS IMPORTA </h1>
     </div>
 
-    <div class="container-fluid">
+    
         <div class="contenedor-form">
-            <form class="form">
-                <fieldset class="form-fieldset">
+            <form class="feedback-form">
+                
 
+                    <label for="nombreApellido">Nombre<span class="obligatorio">*</span></label>
+                    <input type="text" name="nombreApellido" required="obligatorio" placeholder="Nombre y apellido:"
+                    >
+                    
+                    <label for="correo">E-mail <span class="obligatorio">*</span></label>
+                    <input type="email" name="correo" required="obligatorio" placeholder="E-mail" height="20px"
+                    title="Introduce tu E-mail">
 
+                    <label for="nacimiento">Fecha de nacimiento<span class="obligatorio">*</span></label>
+                    <input type="date" name="nacimiento" required="obligatorio">
 
-                    <label for="correo" class="form-item"></label>
-                    <input type="email" name="correo" required placeholder="E-mail" height="20px"
-                        class="form-item-input">
+                    <label for="opinion">Dejanos una breve opinión sobre la marca:</label>
+                    <textarea name="opinion" id="" placeholder="Deja aquí tu comentario sobre la marca"></textarea>
 
-                    <label for="nombreApellido" class="form-item"></label>
-                    <input type="text" name="nombreApellido" required placeholder="Nombre y apellido:"
-                        class="form-item-input">
-
-                    <label for="nacimiento" class="form-item">Fecha de nacimiento:</label>
-                    <input type="date" name="nacimiento" required class="form-item-input">
-
-                    <label for="valoracion" class="form-item">Dejanos tu valoracion sobre la marca del 1 al 10:</label>
-                    <p class="form-valoracion-numeros">1 2 3 4 5 6 7 8 9 10</p>
-                    <input type="range" name="valoracion" required class="barra-valoracion-feedback">
-
-
-                    <textarea name="opinion" id="" class="feedback-text-opinion"
-                        placeholder="Deja tu opinion:"></textarea>
-
-
-                </fieldset>
-
-
-
+                
                 <div class="botones">
 
                     <input type="submit" value="Enviar formulario">
@@ -97,32 +95,49 @@
 
                 </div>
 
+                <p class="form-aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p> 
             </form>
 
 
 
         </div>
+    
+
+   
+
+
+<hr>
+<footer id="final">
+    <ul>
+        <li>Contactanos en <a href="https://mail.google.com" target="_blank" title="Ir a Gmail">contacto@powerclothing.com</a></li>
+
+        <li>PowerClothing © 2022. Todos los derechos reservados.</li>
+    </ul>
+
+    <div>
+        <h3>Ubicación</h3>
+        <a href="https://www.google.com/maps/place/Heed+Physique/@-31.3445147,-64.2882865,16.04z/data=!4m8!1m2!3m1!2sHeed+Physique!3m4!1s0x94329d63ec6798d1:0xb4d7fac03ebdfe25!8m2!3d-31.345441!4d-64.2855709"
+            target="_blank"><img src="../multimedia/logos/mapas.png" alt="ubicacion" title="Ir a Maps"></a>
     </div>
 
-    <footer id="final">
-        <hr class="hr">
-        <ul class="footer-lista">
-            <li class="footer-lista-item">Contactanos en <a href="https://mail.google.com" target="_blank"
-                    class="footer-item-link">contacto@powerclothing.com</a></li>
+    <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+        <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp" alt="contacto whatsapp">
 
-            <li class="footer-lista-item">PowerClothing © 2022. Todos los derechos reservados.</li>
 
-        </ul>
+</footer>
 
-        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-            <img src="../multimedia/logos/whatsapp_icon.png" alt="whatsapp" class="whatsapp">
-        </a>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

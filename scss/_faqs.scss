@@ -1,0 +1,95 @@
+
+.titulo-faqs{
+    color: #060606;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    border: solid 4px whitesmoke;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation-name: animacionFaqs;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    @keyframes animacionFaqs{
+        0%{
+            color: #060606;
+        }
+    
+        50%{
+            color: white;
+        }
+    
+        100%{
+            color: black;
+        }
+    }
+}
+
+
+
+.faqs{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+        article{
+        margin: 2rem;
+        width: 30%;
+        padding: 8px;
+        border: solid 3px white;
+            h2{
+            font-size: 3.5rem;
+            text-decoration: underline;
+            color: lightgray;
+            font-weight: bold;
+        }
+        a{
+            font-size: 2.3rem
+        }
+        p{
+            font-size: 2.1rem;
+            text-align: left;
+            padding: 1rem 1rem 0px 1rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .titulo-faqs{
+        font-size: 3rem;
+    }
+
+    .faqs article{
+        width: 90%;
+    }
+
+    .faqs article h2{
+        font-size: 2.5rem;
+    }
+
+    .faqs article p{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+
+    .faqs article{
+        width: 40%;
+    }
+
+    .faqs article h2{
+        font-size: 2.8rem;
+    }
+
+    .faqs article p{
+        font-size: 2rem;
+    }
+}
+

@@ -101,6 +101,9 @@ hr {
   height: 100vh;
   z-index: -1; }
 
+.index-body {
+  overflow-x: hidden; }
+
 .main-contenedor-texto {
   margin: 3rem 3rem;
   text-align: center; }
@@ -321,11 +324,13 @@ hr {
 
 .nosotros-redes {
   font-size: 2rem; }
-  .nosotros-redes a {
+  .nosotros-redes p {
+    font-size: 1.4rem; }
+  .nosotros-redes img {
     margin-right: 5px; }
-    .nosotros-redes a:hover {
-      width: 100px;
-      height: 100px; }
+    .nosotros-redes img:hover {
+      width: 9rem;
+      height: 9rem; }
 
 .nosotros-texto-redes {
   font-size: 1.2rem; }
@@ -336,10 +341,10 @@ hr {
   font-size: 2rem; }
   .nosotros-aplicaciones div {
     margin-top: 1rem; }
-  .nosotros-aplicaciones a:hover {
-    height: 100px;
-    width: 100px;
-    margin: 10px; }
+    .nosotros-aplicaciones div img:hover {
+      height: 9rem;
+      width: 9rem;
+      margin: 10px; }
 
 .titulo-faqs {
   color: #060606;

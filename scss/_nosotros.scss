@@ -106,7 +106,7 @@
         &:hover{
             font-size: 5rem;
         }
-}
+    }
 }
 
 .nosotros-objetivo{
@@ -137,11 +137,14 @@
 
 .nosotros-redes{
     font-size: 2rem;
-    a{
+    p{
+        font-size: 1.4rem;
+    }
+    img{
         margin-right: 5px;
         &:hover{
-            width: 100px;
-            height: 100px;
+            width: $fontNav*3;
+            height: $fontNav*3;
         }
     }
 }
@@ -156,12 +159,12 @@
     font-size: 2rem;
     div{
         margin-top: 1rem;
-    }
-    a{
-        &:hover{
-            height: 100px;
-            width: 100px;
-            margin: 10px;
+        img{
+            &:hover{
+                height: $fontNav*3;
+                width: $fontNav*3;
+                margin: 10px;
+            }
         }
     }
 }

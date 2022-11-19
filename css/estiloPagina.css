@@ -522,7 +522,7 @@ hr{
     margin-right: 5px;
 }
 
-.nosotros-redes a :hover{
+.nosotros-redes a:hover{
     width: 100px;
     height: 100px;
 }

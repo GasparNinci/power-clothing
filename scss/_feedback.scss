@@ -24,7 +24,7 @@
 
 .feedback-form{
     display: inline-block;
-    width: 45rem;
+    width: 45%;
     background-color: #62646a;
     border-radius: 28px;
     padding: 2rem 1.5rem;
@@ -87,4 +87,16 @@
     color: #d7f07b;
     font-weight: bold;
     font-size: 2.25rem;
+}
+
+@media screen and (max-width: 500px) {
+    .feedback-form{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .feedback-form{
+        width: 75%;
+    }
 }

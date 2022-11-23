@@ -322,15 +322,18 @@ hr {
   flex-direction: row;
   justify-content: space-evenly; }
 
-.nosotros-redes {
-  font-size: 2rem; }
-  .nosotros-redes p {
-    font-size: 1.4rem; }
-  .nosotros-redes img {
-    margin-right: 5px; }
-    .nosotros-redes img:hover {
-      width: 9rem;
-      height: 9rem; }
+.nosotros-redes h4 {
+  font-size: 2.2rem;
+  text-decoration: underline; }
+
+.nosotros-redes p {
+  font-size: 1.4rem; }
+
+.nosotros-redes img {
+  margin-right: 5px; }
+  .nosotros-redes img:hover {
+    width: 9rem;
+    height: 9rem; }
 
 .nosotros-texto-redes {
   font-size: 1.2rem; }
@@ -433,7 +436,7 @@ hr {
 
 .feedback-form {
   display: inline-block;
-  width: 45rem;
+  width: 45%;
   background-color: #62646a;
   border-radius: 28px;
   padding: 2rem 1.5rem; }
@@ -487,6 +490,14 @@ hr {
   font-weight: bold;
   font-size: 2.25rem; }
 
+@media screen and (max-width: 500px) {
+  .feedback-form {
+    width: 90%; } }
+
+@media screen and (max-width: 992px) {
+  .feedback-form {
+    width: 75%; } }
+
 .main-galeria {
   display: flex;
   flex-direction: column;
@@ -504,22 +515,27 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .galeria-productos div {
+  .galeria-productos article {
     margin: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .galeria-productos div p {
+    .galeria-productos article div {
       margin: 5rem 10rem;
       font-size: 2rem;
       text-align: center;
       font-weight: bold;
-      text-decoration: underline;
+      text-decoration: blink;
       display: flex;
-      flex-direction: column-reverse; }
+      flex-direction: column; }
+      .galeria-productos article div h2 {
+        font-size: 2.9rem;
+        text-align: center;
+        margin-bottom: 1rem; }
 
 .galeria-instalaciones {
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -539,10 +555,14 @@ hr {
     margin-top: 1rem;
     font-size: 1.8rem; }
 
-@media screen and (max-width: 812px) {
-  .galeria-productos div {
+@media screen and (max-width: 815px) {
+  .galeria-productos article {
     flex-direction: column;
     justify-content: center; }
+    .galeria-productos article div {
+      margin-top: 15rem; }
+      .galeria-productos article div h2 {
+        font-size: 2.7rem; }
   .galeria-instalaciones a img {
     width: 80vw; } }
 
